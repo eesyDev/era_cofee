@@ -1,0 +1,18 @@
+.brand {
+    padding: 75px 0;
+    &__wrapper {
+        margin-top: 35px;
+    }
+    &__descr {
+        width: 51%;
+    }
+    .h2 {
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 1199.99px) {
+    .brand__descr {
+        width: 100%;
+    }
+}

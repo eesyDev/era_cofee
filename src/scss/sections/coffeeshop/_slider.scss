@@ -1,0 +1,30 @@
+.coffee-slider {
+    padding: 75px 0;
+    background-color: var(--color-gray-300);
+    &__wrapper {
+        display: flex;
+        // gap: 20px;
+    }
+    &__card {
+        width: calc(25% - 15px);
+        &-img {
+            width: 100%;
+            height: 350px;
+            background-color: var(--color-white);
+            display: flex;
+            border-radius: 35px 35px 0 0;
+        }
+    }
+}
+
+// @media screen and (max-width: 1199.99px) {
+//     .coffee-slider__card-img {
+//         height: 300px;
+//     }
+// }
+
+// @media screen and (max-width: 1024.99px) {
+//     .coffee-slider__card-img {
+//         height: 200px;
+//     }
+// }

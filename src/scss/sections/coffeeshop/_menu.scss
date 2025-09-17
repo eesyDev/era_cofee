@@ -1,0 +1,46 @@
+.menu {
+    padding: 95px 0;
+    background-color: var(--color-gray-300);
+    margin-bottom: 50px;
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 50px;
+    }
+    &__card {
+        width: calc(25% - 15px);
+        &-img {
+            width: 100%;
+            height: 265px;
+            background-color: var(--color-white);
+            border-radius: 35px 35px 0 0;
+        }
+        &-title {
+            margin-top: 25px;
+            font-weight: bold;
+        }
+        &-descr {
+            margin-top: 15px;
+        }
+    }
+    &__navigation {
+        justify-content: center;
+        margin-top: 35px;
+        gap: 10px;
+        .swiper-button {
+            position: static;
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    .menu {
+        padding: 65px 0;
+    }
+}
